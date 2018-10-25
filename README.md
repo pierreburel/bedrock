@@ -32,7 +32,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 1. Create a new project in a new folder for your project:
 
-  `composer create-project roots/bedrock your-project-folder-name`
+  `mkdir your-project && cd "$_" && git clone --depth=1 git@github.com:pierreburel/bedrock.git . && rm -rf .git && composer install`
 
 2. Update environment variables in `.env`  file:
   * `DB_NAME` - Database name
@@ -60,14 +60,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 ## Deploys
 
-There are two methods to deploy Bedrock sites out of the box:
-
-* [Trellis](https://github.com/roots/trellis)
-* [bedrock-capistrano](https://github.com/roots/bedrock-capistrano)
-
-Any other deployment method can be used as well with one requirement:
-
-`composer install` must be run as part of the deploy process.
+See [bedrock-capistrano](https://github.com/roots/bedrock-capistrano).
 
 ## Documentation
 

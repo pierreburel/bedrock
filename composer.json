@@ -52,9 +52,9 @@
   },
   "extra": {
     "dropin-paths": {
-      "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
-      "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-      "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+      "web/app/languages/": ["vendor:koodimonni-language"],
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
     },
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
